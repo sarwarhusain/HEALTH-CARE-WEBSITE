@@ -8,7 +8,7 @@ const Sarvices = () => {
       <hr />
       <h2 className="text-opacity-75 text-black fw-bold">Our Services</h2>
       <hr />
-      <div className="row row-cols-1 row-cols-md-2 g-4">
+      <div className="row row-cols-1 col-lg-12 row-cols-md-2 g-4 ">
         <div className="col">
           <img src="https://i.ibb.co/KDFW1Y6/bed.jpg" className="card-img-top" alt="..." />
         </div>

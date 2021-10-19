@@ -12,13 +12,13 @@ const Consultants = () => {
   }, [])
   return (
     <div>
-      <h2 className="mt-5 text-opacity-75 text-black fw-bold">Our Doctors</h2>
+      <h2 className="mt-5 text-opacity-75 text-black fw-bold ">Our Doctors</h2>
       <hr /><hr />
       <br />
       <div className="consultant-container">
         {
           consultants.map(consultant => <Consultant
-            key={consultant.userId}
+            key={consultant.Id}
             consultant={consultant}
 
           ></Consultant>)
