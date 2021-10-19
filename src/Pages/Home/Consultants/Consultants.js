@@ -18,9 +18,8 @@ const Consultants = () => {
       <div className="consultant-container">
         {
           consultants.map(consultant => <Consultant
-            key={consultant.Id}
+            key={consultant.userId}
             consultant={consultant}
-
           ></Consultant>)
         }
 
