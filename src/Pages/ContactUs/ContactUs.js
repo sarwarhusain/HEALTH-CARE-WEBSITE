@@ -1,26 +1,28 @@
 import React from 'react';
-
+import about from '../../images/about/alharamainhospital.jpg'
 const ContactUs = () => {
   return (
-    <div className="d-flex ">
-      <div>
-        <p className='fw-bold '>Address:<span>House-06,Road-04,Sylhet,Bngladesh</span></p>
-        <p className='fw-bold'>Phone:<span>017***********</span></p>
-        <p className='fw-bold'>Email:<span>sarwar*****8@gmail.com</span></p>
-        <p className='fw-bold'><span>Mobile:01788888888</span></p>
-        <p className='fw-bold'><span>Customer Care:01766666666</span></p>
-      </div>
-      <button  >View Our Location</button>
-      <div>
-        <h1 className='fw-bold'>Contact Us</h1>
-        <form action="">
-          <input placeholder="Enter Your Name" type=" Name" />
-          <input placeholder="Enter Your Email" type="Email" />
-          <input placeholder="Enter Your PhoneNumber" type="Phone" />
-          <input placeholder="Enter Your Password" type="Password" />
-        </form>
-      </div>
+    <div className="row row-cols-1 col-lg-12 row-cols-md-2 justify-content-center mx-auto ">
+      <h2 className="text-black text-opacity-50 mx-auto mb-5">KNOW WHO WE ARE!</h2>
+      <hr />
+      <div className="row row-cols-1 row-cols-md-2 g-4">
+        <div className="col">
+          <img src={about} className="mx-auto card-img-top" alt="..." />
+        </div>
+        <div className="col">
+          <div className="card-body justify-content-start">
+            <h6>Address:<span className="text-opacity-50 text-secondary ">Kazi Tower, Samato-30, Chali Bandar, Bishwa Road, Subhani Ghat, Sylhet-3100, Bangladesh </span></h6>
+            <h6>
+              phone:<span className="text-opacity-50 text-secondary">+88 0821 729981, +88 019 3122 5555, Hotline: 10607</span>
+            </h6>
+            <h6>
+              Email:<span className="text-opacity-50 text-secondary">info@haramainhospital.com</span>
+            </h6>
+          </div>
 
+        </div>
+
+      </div>
     </div>
   );
 };

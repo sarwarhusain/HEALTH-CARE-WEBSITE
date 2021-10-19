@@ -6,7 +6,7 @@ const NotFounde = () => {
     <div>
       <div>
         <img style={{ width: '50%' }} src={notFounde} alt="" />
-        <Link to="/"> <button>Go Back</button></Link>
+        <Link to="/"> <button className="text-success rounded-3">Go Back</button></Link>
       </div>
     </div>
   );
