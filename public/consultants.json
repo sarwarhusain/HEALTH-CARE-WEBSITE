@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "userId": "1",
+    "name": "DR. KHANDAKER ABU TALHA",
+    "Position": "Senior Consultant – Neurosurgery",
+    "department": "Neurosurgery",
+    "Qualification:": " MBBS, MCPS (Surgery), MPH, MS (Neurosurgery), DCR (Canada)",
+    "description": "Neurosurgery  is the medical specialty concerned with the diagnosis and treatment of of patients with injury to, or diseases/disorders of the brain, spinal cord and spinal column, and peripheral nerves within all parts of the body.",
+    "img": "https://i.ibb.co/s6SB0Hp/at-reza.jpg"
+  },
+  {
+    "id": 2,
+    "userId": "1",
+    "name": "DR. AZIZUL KABIR",
+    "Position": "Senior Consultant – Neurology",
+    "department": "MBBS, MD (Neurology)  ",
+    "Qualification:": "Neurology",
+    "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
+    "img": "https://i.ibb.co/hMkv2B3/kadir.jpg"
+  },
+  {
+    "id": 3,
+    "userId": "1",
+    "name": "PROF. DR. SHAMSUN NAHAR BEGUM (HENA)",
+    "Position": "Chief Consultant – Obs & Gynae",
+    "department": "Gynaecology & Obstetrics",
+    "Qualification:": "MBBS, FCPS (Obs & Gynae) – 1988",
+    "description": "Postgraduate training programs for both fields are usually combined, preparing the practicing obstetrician-gynecologist to be adept both at the care of female reproductive organs' health and at the management of pregnancy, although many doctors go on to develop subspecialty interests in one field or the other.",
+    "img": "https://i.ibb.co/VL5VvSP/hena-madam.jpg"
+  },
+  {
+    "id": 4,
+    "userId": "1",
+    "name": "DR. LUBNA YEASMIN",
+    "Position": " Consultant – Obs & Gynae",
+    "department": "Gynaecology & Obstetrics",
+    "Qualification:": "MBBS (2005), DGO (2010)",
+    "description": "Postgraduate training programs for both fields are usually combined, preparing the practicing obstetrician-gynecologist to be adept both at the care of female reproductive organs' health and at the management of pregnancy, although many doctors go on to develop subspecialty interests in one field or the other.",
+    "img": "https://i.ibb.co/6NttDHx/lubna-yeasmin-1.jpg"
+  },
+  {
+    "id": 5,
+    "userId": "1",
+    "name": "DR. JAKIR ISLAM ",
+    "Position": "Senior Consultant & H.O.D. – Cardiology Request Appointment",
+    "department": "Cardiology",
+    "Qualification:": " MBBS, MD – Cardiology (NICVD), Clinical Assistant – Cardiology in NICVD",
+    "description": "Cardiology  heart is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.",
+    "img": "https://i.ibb.co/FX3DjrP/jakir-sir.jpg"
+  },
+  {
+    "id": 6,
+    "userId": "1",
+    "name": "DR. NAHID PARVEEN",
+    "Position": " Consultant – Obs & Gynae",
+    "department": "Gynaecology & Obstetrics",
+    "Qualification:": "MBBS (2005), DGO (2010)",
+    "description": "Postgraduate training programs for both fields are usually combined, preparing the practicing obstetrician-gynecologist to be adept both at the care of female reproductive organs' health and at the management of pregnancy, although many doctors go on to develop subspecialty interests in one field or the other.",
+    "img": "https://i.ibb.co/6NttDHx/lubna-yeasmin-1.jpg"
+  },
+  {
+    "id": 7,
+    "userId": "1",
+    "name": "DR. BILKIS SULTANA",
+    "Position": "Consultant – Medicine",
+    "department": "Medicine",
+    "Qualification:": "MBBS, MD (Medicine)",
+    "description": "Medicine is the science[1] and practice[2] of caring for a patient, managing the diagnosis, prognosis, prevention, treatment, palliation of their injury or disease, and promoting their health. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness. Contemporary medicine applies biomedical sciences, biomedical research, genetics, and medical technology to diagnose.",
+    "img": "https://i.ibb.co/Lht2SgW/jubaida.jpgg"
+  },
+  {
+    "id": 8,
+    "userId": "1",
+    "name": "DR. CHOWDHURY FOYZUR ROB (ZUBAYER)",
+    "Position": "Senior Consultant – Orthopedics",
+    "department": "Orthopedics, Trauma & Spine Surgery",
+    "Qualification:": "MBBS, MS (Orthopedics)",
+    "description": "Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopaedic surgeons use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and congenital disorders.",
+    "img": "https://i.ibb.co/m8RNGGT/jubayer-sir.jpg"
+  },
+  {
+    "id": 9,
+    "userId": "1",
+    "name": "DR. SHAHED AHMAD",
+    "Position": "Consultant – Medicine",
+    "department": " Medicine",
+    "Qualification:": "MBBS(2009), FCPS (Medicine)",
+    "description": "MBBS, MD (Medicine)",
+    "description": "Medicine is the science[1] and practice[2] of caring for a patient, managing the diagnosis, prognosis, prevention, treatment, palliation of their injury or disease, and promoting their health. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness. Contemporary medicine applies biomedical sciences, biomedical research, genetics, and medical technology to diagnose.",
+    "img": "https://i.ibb.co/10fVWgM/dr-belayet.jpg"
+  }
+]
