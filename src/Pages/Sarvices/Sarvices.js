@@ -15,13 +15,14 @@ const Sarvices = () => {
         <div className="col">
           <div className="card-body mt-5">
             <h5 className="card-title fw-bold fs-1 text-opacity-60 text-info">250 BED</h5>
-            <p className="card-text fs-5 text-opacity-50 fw-semi-bold">Al Haramain Hospital Pvt. Ltd. is a hospital designed to provide quality health care services to the people of Sylhet in particular, and people of the division and beyond in general. Presently it is a 250 Bed hospital, with an expansion plan to increase it to 500 beds.</p>
+            <p className="fw-semi-bold">Al Haramain Hospital has a fully functional, well-equipped and highly responsive Accident & Emergency Centre, which deals with all kinds of emergencies under one roof 24 hours a day and 7 days a week. The Centre is managed by qualified and experienced Emergency Medical Personnel. In case of any emergency, one call is enough to avail our ambulance pick-up round-the-clock. Our fleet of ambulances is well-equipped and manned by trained emergency technicians and paramedics..</p>
           </div>
         </div>
         <div className="col">
           <div className="card-body mt-5">
-            <h5 className="card-title card-title fw-bold fs-5 text-opacity-60 text-info">MODULAR OPERATION THEATRE</h5>
-            <p className="card-text card-text fs-4 text-opacity-50 fw-semi-bold">Most modern well well equipped Modular Operation theater Covering total 10,500 sq.ft with Orthopedic OT, General OT, Gyane OT, Special Neuro OT, Ultramodern Emergency OT.</p>
+            <h5 className="card-title card-title fw-bold fs-3 text-opacity-60 text-info">MODULAR OPERATION THEATRE</h5>
+            <p className="">We have a spacious Operation Theater complex which comprises of five modular operation theaters, with a total floor space of up to 11,000 sq. ft. There are separate Post-Operative Wards for males and females. We also boast of having the most ultra-modernanaesthetic work station. We have OT tables from Brazil, all OT lighting has been sourced from Canada and anaesthesia workstation from Germany (Ultra-modern Emergency OT, Orthopedic OT, General OT, GyNAe OT, Special & Neuro OT)
+            In order to provide our patients with the best treatment, we have taken the initiative to invest in the latest and most advanced OT technology. We have sourced our equipment from the most reputable global suppliers such as Philips (Netherlands) and DV Lab (USA) with full back-up service to ensure 24/7 reliability in the services that we provide.</p>
           </div>
         </div>
         <div className="col">

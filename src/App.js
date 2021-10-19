@@ -14,6 +14,9 @@ import ConfirmAppointment from './Pages/ConfirmAppointment/ConfirmAppointment';
 import GettingAppointment from './Pages/GettingAppoint/GettingAppoint';
 import Consultants from './Pages/Home/Consultants/Consultants';
 import Sarvices from './Pages/Sarvices/Sarvices';
+import About from './Pages/About/About';
+import Booking from './Pages/Booking/Booking/Booking';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 function App() {
   return (
     <div className="App">
@@ -46,9 +49,15 @@ function App() {
             <Route path="/confirmAppointment">
               <ConfirmAppointment></ConfirmAppointment>
             </Route>
-            <Route path="/getttingAppoint">
+            <Route path="/gettingAppoint">
               <GettingAppointment></GettingAppointment>
             </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <PrivateRoute path="/booking/:consultantname">
+            <Booking></Booking>
+            </PrivateRoute>
             <Route path="/footer">
               <Footer></Footer>
             </Route>

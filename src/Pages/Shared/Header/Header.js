@@ -14,12 +14,12 @@ const Header = () => {
           <Navbar.Brand href="#home" className="text-info fw-bold" >Al Haramain Hospital</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end fw-bold text-black ">
-            <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
-            <Nav.Link as={HashLink} to="/services">Services</Nav.Link>
-            <Nav.Link as={HashLink} to="/home#consultants">Consultant</Nav.Link>
-            <Nav.Link as={Link} to="/findDoctor">Find Doctors</Nav.Link>
+            <Nav.Link as={HashLink} to="/home#home">HOME</Nav.Link>
+            <Nav.Link as={Link} to="/services">SERVICES</Nav.Link>
+            <Nav.Link as={Link} to="/about">ABOUT</Nav.Link>
+            <Nav.Link as={Link} to="/findDoctor">FIND DOCTORS</Nav.Link>
             {user?.email ?
-              <Button onClick={logOut} variant="info">Logout</Button> :
+              <Button className="fw-bold border-2 text-info border border-info" onClick={logOut} variant="info">Logout</Button> :
               <Button className="rounded-circle"><Nav.Link as={Link} to="/login">Login</Nav.Link></Button>
             }
             <Navbar.Text>

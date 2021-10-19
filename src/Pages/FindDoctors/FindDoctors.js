@@ -19,7 +19,7 @@ const FindDoctors = () => {
             <input type="" className="form-control" id="" />
           </div>
           <br />
-          <Link to='/doctors'><button type="submit" className="btn btn-primary">Submit</button></Link>
+          <Link to='/'><button type="submit" className="btn btn-primary">Submit</button></Link>
         </div>
       </form>
     </div>
