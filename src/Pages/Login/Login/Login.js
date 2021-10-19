@@ -7,7 +7,7 @@ const Login = () => {
   const { signInUsingGoogle } = useAuth();
 
   return (
-    <div className="Login-form mx-auto w-25 border border-5 rounded-3">
+    <div className="Login-form mx-auto w-50 border border-5 rounded-3">
       <div className="bg-info ">
         <h2>Log in</h2>
         <form >

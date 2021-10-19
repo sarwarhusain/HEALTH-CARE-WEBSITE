@@ -1,6 +1,7 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../Pages/Login/FireBase/firebase.init";
+import useAuth from "./useAuth";
 initializeAuthentication();
 
 // useFirebase started
@@ -23,6 +24,7 @@ const useFirebase = () => {
       .finally(() => setIsLoading(false));
   }
 
+
   // observed user state change.
   useEffect(() => {
     const unsubscribed = onAuthStateChanged(auth, user => {
@@ -44,6 +46,14 @@ const useFirebase = () => {
       .then(() => { })
       .finally(() => setIsLoading(false));
   }
+
+  // const createUserWithEmail = () => {
+  //   const { email, password }=useState();
+  //   createUserWithEmailAndPassword(auth, email, password)
+  //     .then((userCredential) => {
+  //       const user = userCredential.user;
+  //     })
+  // }
 
   return {
     user,

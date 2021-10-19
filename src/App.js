@@ -9,6 +9,11 @@ import NotFounde from './Pages/NotFounde/NotFounde';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Login/Register/Register';
 import AuthProvider from './Contexts/AuthProvider';
+import FindDoctors from './Pages/FindDoctors/FindDoctors';
+import ConfirmAppointment from './Pages/ConfirmAppointment/ConfirmAppointment';
+import GettingAppointment from './Pages/GettingAppoint/GettingAppoint';
+import Consultants from './Pages/Home/Consultants/Consultants';
+import Sarvices from './Pages/Sarvices/Sarvices';
 function App() {
   return (
     <div className="App">
@@ -30,6 +35,19 @@ function App() {
             </Route>
             <Route path="/register">
               <Register></Register>
+            </Route>
+            <Route path="/services">
+              <Sarvices></Sarvices>
+            </Route>
+
+            <Route path="/findDoctor">
+              <FindDoctors></FindDoctors>
+            </Route>
+            <Route path="/confirmAppointment">
+              <ConfirmAppointment></ConfirmAppointment>
+            </Route>
+            <Route path="/getttingAppoint">
+              <GettingAppointment></GettingAppointment>
             </Route>
             <Route path="/footer">
               <Footer></Footer>
