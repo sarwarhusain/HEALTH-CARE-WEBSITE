@@ -16,7 +16,6 @@ import Booking from './Pages/Booking/Booking/Booking';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import Sarvices from './Pages/Sarvices/Sarvices';
 import Footar from './Pages/Home/Footar/Footar';
-import Direction from './Pages/Maps/Direction/Direction';
 function App() {
   return (
     <div className="App">
@@ -41,9 +40,6 @@ function App() {
             </Route>
             <Route path='/services'>
               <Sarvices></Sarvices>
-            </Route>
-            <Route>
-              <Direction></Direction>
             </Route>
             <PrivateRoute path="/findDoctor">
               <FindDoctors></FindDoctors>

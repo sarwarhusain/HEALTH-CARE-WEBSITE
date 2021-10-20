@@ -11,7 +11,7 @@ const ContactUs = () => {
         </div>
         <div className="col">
           <div className="card-body justify-content-start">
-            <h6>Address:-<span className="text-opacity-50 text-secondary ">Kazi Tower, Samato-30, Chali Bandar, Bishwa Road, Subhani Ghat, Sylhet-3100, Bangladesh </span></h6>
+            <h6>Address:-<span className="text-opacity-50 text-secondary ">Kazi Tower, samato-30, Chali Bandar, Bishwa Road, Subhani Ghat, Sylhet-3100, Bangladesh </span></h6>
             <h6>
               phone:<span className="text-opacity-50 text-secondary">+88 0821 729981, +88 019 3122 5555, Hotline: 10607</span>
             </h6>
