@@ -13,7 +13,7 @@ const Consultants = () => {
   return (
     <div>
       <h2 className="mt-5 text-opacity-75 text-black fw-bold ">OUR CONSULTANTS</h2>
-      <hr /><hr />
+      <hr />
       <br />
       <div className="consultant-container">
         {

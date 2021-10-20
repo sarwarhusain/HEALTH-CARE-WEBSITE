@@ -4,8 +4,6 @@ const Sarvices = () => {
 
   return (
     <div className="mt-5">
-      <hr />
-      <hr />
       <h2 className="text-opacity-75 text-black fw-bold">Our Services</h2>
       <hr />
       <div className="row row-cols-1 col-lg-12 row-cols-md-2 g-4 ">

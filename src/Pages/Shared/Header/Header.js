@@ -9,10 +9,10 @@ const Header = () => {
   const { user, logOut } = useAuth();
   return (
     <>
-      <Navbar bg="info" variant="light" sticky="top" collapseOnSelect expand="lg" >
+      <Navbar bg="info" variant="dark" sticky="top" collapseOnSelect expand="lg" >
         <Container>
           <img src={logo} alt="" />
-          <Navbar.Brand href="#home" className="text-black fs-5 fw-bold" >Al Haramain Hospital</Navbar.Brand>
+          <Navbar.Brand href="#home" className="text-black fs-5 fw-bold text-opacity -75" >Al Haramain Hospital</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end fw-bold text-black ">
             <Nav.Link as={HashLink} to="/home#home">HOME</Nav.Link>

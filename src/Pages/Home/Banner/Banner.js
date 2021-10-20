@@ -40,7 +40,6 @@ const Banner = () => {
           </Carousel></Col>
         </Row>
       </Container>
-      <hr/>
 
     </>
   );
