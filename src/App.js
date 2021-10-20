@@ -18,7 +18,7 @@ import Sarvices from './Pages/Sarvices/Sarvices';
 import Footar from './Pages/Home/Footar/Footar';
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-light">
       <AuthProvider>
         <Router>
           <Header></Header>

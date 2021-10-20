@@ -9,10 +9,10 @@ const Header = () => {
   const { user, logOut } = useAuth();
   return (
     <>
-      <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg" >
+      <Navbar bg="info" variant="light" sticky="top" collapseOnSelect expand="lg" >
         <Container>
           <img src={logo} alt="" />
-          <Navbar.Brand href="#home" className="text-info fw-bold" >Al Haramain Hospital</Navbar.Brand>
+          <Navbar.Brand href="#home" className="text-black fs-5 fw-bold" >Al Haramain Hospital</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end fw-bold text-black ">
             <Nav.Link as={HashLink} to="/home#home">HOME</Nav.Link>
@@ -22,7 +22,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/contact">CONTACT US</Nav.Link>
             {user?.email ?
               <Button className="fw-bold border-2 text-info border border-info" onClick={logOut} variant="info">Logout</Button> :
-              <Button className="rounded-circle"><Nav.Link as={Link} to="/login">Login</Nav.Link></Button>
+              <Button className="btn btn-info fw-bold"><Nav.Link as={Link} to="/login">Login</Nav.Link></Button>
             }
             <Navbar.Text>
               Signed in as: <a href="#login">{user?.displayName}</a>
